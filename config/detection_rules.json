@@ -1,9 +1,44 @@
 [
-"error",
-"critical",
-"database failure",
-"unauthorized access",
-"authentication failure",
-"data breach",
-"memory overflow"
+	{
+		"name": "DATABASE_FAILURE",
+		"category": "availability",
+		"severity": "high",
+		"keywords": ["database failure", "database timeout", "db connection refused"],
+		"description": "Database services are failing or timing out."
+	},
+	{
+		"name": "AUTHENTICATION_FAILURE",
+		"category": "security",
+		"severity": "high",
+		"keywords": ["authentication failure", "authentication failed", "login failed"],
+		"description": "Repeated authentication failures may indicate brute-force activity."
+	},
+	{
+		"name": "UNAUTHORIZED_ACCESS",
+		"category": "security",
+		"severity": "critical",
+		"keywords": ["unauthorized access", "access denied", "permission denied"],
+		"description": "Unauthorized access attempts were detected."
+	},
+	{
+		"name": "DATA_BREACH",
+		"category": "security",
+		"severity": "critical",
+		"keywords": ["data breach", "exfiltration", "sensitive data leak"],
+		"description": "Potential data exposure or exfiltration activity."
+	},
+	{
+		"name": "MEMORY_OVERFLOW",
+		"category": "stability",
+		"severity": "high",
+		"keywords": ["memory overflow", "out of memory", "memory exhausted"],
+		"description": "Application memory exhaustion or overflow detected."
+	},
+	{
+		"name": "CRITICAL_ERROR",
+		"category": "operational",
+		"severity": "medium",
+		"keywords": ["critical", "error"],
+		"description": "Generic high-signal error indicators in log messages."
+	}
 ]

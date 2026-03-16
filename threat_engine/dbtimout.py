@@ -1,27 +1,15 @@
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.cluster import KMeans
+from threat_engine.log_clustering import LogClustering
 
-class dbtimeout:
+
+class DatabaseTimeoutCluster:
+    def __init__(self):
+        self.cluster_engine = LogClustering(max_clusters=2)
 
     def timeout(self, logs):
-
-        messages = [log["message"] for log in logs]
-
-        vectorizer = TfidfVectorizer()
-
-        X = vectorizer.fit_transform(messages)
-
-        model = KMeans(n_timeout=3)
-
-        labels = model.fit_predict(X)
-
-        clusters = {}
-
-        for i, label in enumerate(labels):
-
-            if label not in clusters:
-                clusters[label] = []
-
-            clusters[label].append(logs[i])
-
-        return clusters
+        database_logs = [
+            log
+            for log in logs
+            if "database" in str(log.get("message", "")).lower()
+            or "db" in str(log.get("message", "")).lower()
+        ]
+        return self.cluster_engine.cluster(database_logs)
