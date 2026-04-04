@@ -3,6 +3,7 @@ from .rule_engine import RuleEngine
 from .behaviour_engine import BehaviourDetector
 from .anomaly_detector import AnomalyDetector
 from .log_clustering import LogClustering
+from .ip_intelligence import IPProfiler
 
 __all__ = [
     "ThreatEngine",
@@ -10,4 +11,5 @@ __all__ = [
     "BehaviourDetector",
     "AnomalyDetector",
     "LogClustering",
+    "IPProfiler",
 ]

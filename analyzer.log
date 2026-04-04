@@ -1,0 +1,14 @@
+2026-04-04 13:32:41,920 INFO pipeline.pipeline_manager: Pipeline: completed in 19377.4 ms
+2026-04-04 13:33:10,058 INFO pipeline.pipeline_manager: Pipeline: completed in 3519.9 ms
+2026-04-04 13:33:10,570 INFO pipeline.pipeline_manager: Pipeline: ingesting file logs/sample.log
+2026-04-04 13:33:10,570 INFO pipeline.pipeline_manager: Pipeline: parsed 9 log entries
+2026-04-04 13:33:14,163 INFO pipeline.pipeline_manager: Pipeline: completed in 3593.1 ms
+2026-04-04 13:47:10,434 INFO pipeline.pipeline_manager: Pipeline: ingesting file logs/live.log
+2026-04-04 13:47:10,435 INFO pipeline.pipeline_manager: Pipeline: parsed 118 log entries
+2026-04-04 13:47:15,524 INFO pipeline.pipeline_manager: Pipeline: completed in 5090.2 ms
+2026-04-04 13:47:25,141 INFO pipeline.pipeline_manager: Pipeline: ingesting file logs/live.log
+2026-04-04 13:47:25,142 INFO pipeline.pipeline_manager: Pipeline: parsed 125 log entries
+2026-04-04 13:47:28,333 INFO pipeline.pipeline_manager: Pipeline: completed in 3192.5 ms
+2026-04-04 13:47:30,873 INFO pipeline.pipeline_manager: Pipeline: ingesting file logs/live.log
+2026-04-04 13:47:30,874 INFO pipeline.pipeline_manager: Pipeline: parsed 128 log entries
+2026-04-04 13:47:34,117 INFO pipeline.pipeline_manager: Pipeline: completed in 3244.2 ms
