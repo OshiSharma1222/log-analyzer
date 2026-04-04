@@ -1,0 +1,181 @@
+192.168.1.10 - - [04/Apr/2026:13:37:41 +0000] "GET /api/v1/users" 200 4889
+2026-04-04 13:37:43 WARNING Database connection timeout observed in pool
+{"timestamp": "2026-04-04T13:37:45.274109", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+{"timestamp": "2026-04-04T13:37:47.275103", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+192.168.1.10 - - [04/Apr/2026:13:37:49 +0000] "GET /api/v1/users" 200 1159
+{"timestamp": "2026-04-04T13:37:51.277212", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+2026-04-04 13:37:53 ERROR Database connection timeout observed in pool
+10.0.0.99 - - [04/Apr/2026:13:37:55 +0000] "GET /api/v1/users" 200 3370
+2026-04-04 13:37:57 ERROR Database connection timeout observed in pool
+192.168.1.10 - - [04/Apr/2026:13:37:59 +0000] "POST /login" 401 54
+192.168.1.50 - - [04/Apr/2026:13:38:01 +0000] "GET /api/v1/users" 200 1509
+{"timestamp": "2026-04-04T13:38:03.285317", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+{"timestamp": "2026-04-04T13:38:05.286089", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+10.0.0.99 - - [04/Apr/2026:13:38:07 +0000] "POST /login" 401 54
+192.168.1.50 - - [04/Apr/2026:13:38:09 +0000] "POST /login" 200 54
+2026-04-04 13:38:11 INFO Database connection timeout observed in pool
+192.168.1.50 - - [04/Apr/2026:13:38:13 +0000] "GET /api/v1/users" 200 186
+2026-04-04 13:38:15 WARNING Database connection timeout observed in pool
+2026-04-04 13:38:17 WARNING Database connection timeout observed in pool
+{"timestamp": "2026-04-04T13:38:19.290978", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+192.168.1.10 - - [04/Apr/2026:13:38:21 +0000] "POST /login" 401 54
+192.168.1.50 - - [04/Apr/2026:13:38:23 +0000] "GET /api/v1/users" 200 2838
+2026-04-04 13:38:25 ERROR Database connection timeout observed in pool
+10.0.0.99 - - [04/Apr/2026:13:38:27 +0000] "GET /api/v1/users" 200 2864
+{"timestamp": "2026-04-04T13:38:29.297473", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+{"timestamp": "2026-04-04T13:38:31.298373", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+192.168.1.50 - - [04/Apr/2026:13:38:33 +0000] "GET /api/v1/users" 200 795
+192.168.1.10 - - [04/Apr/2026:13:38:35 +0000] "GET /api/v1/users" 200 2387
+10.0.0.99 - - [04/Apr/2026:13:38:37 +0000] "POST /login" 500 54
+10.0.0.99 - - [04/Apr/2026:13:38:39 +0000] "GET /api/v1/users" 200 2163
+192.168.1.10 - - [04/Apr/2026:13:38:41 +0000] "GET /api/v1/users" 200 872
+2026-04-04 13:38:43 WARNING Database connection timeout observed in pool
+192.168.1.10 - - [04/Apr/2026:13:38:45 +0000] "GET /api/v1/users" 200 1732
+2026-04-04 13:38:47 ERROR Database connection timeout observed in pool
+192.168.1.50 - - [04/Apr/2026:13:38:49 +0000] "GET /api/v1/users" 200 2694
+10.0.0.99 - - [04/Apr/2026:13:38:51 +0000] "GET /api/v1/users" 200 4662
+10.0.0.99 - - [04/Apr/2026:13:38:53 +0000] "GET /api/v1/users" 200 964
+192.168.1.10 - - [04/Apr/2026:13:38:55 +0000] "POST /login" 200 54
+{"timestamp": "2026-04-04T13:38:57.317670", "event": "unauthorized_access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:38:59 WARNING Database connection timeout observed in pool
+2026-04-04 13:39:01 INFO Database connection timeout observed in pool
+192.168.1.50 - - [04/Apr/2026:13:39:03 +0000] "POST /login" 200 54
+2026-04-04 13:39:05 INFO Database connection timeout observed in pool
+10.0.0.99 - - [04/Apr/2026:13:39:07 +0000] "GET /api/v1/users" 200 2398
+192.168.1.50 - - [04/Apr/2026:13:39:09 +0000] "POST /login" 200 54
+{"timestamp": "2026-04-04T13:39:11.326364", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+192.168.1.10 - - [04/Apr/2026:13:39:13 +0000] "POST /login" 200 54
+{"timestamp": "2026-04-04T13:39:15.330448", "event": "unauthorized_access", "ip": "192.168.1.50", "level": "critical"}
+{"timestamp": "2026-04-04T13:39:17.331365", "event": "unauthorized_access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:39:19 ERROR Database connection timeout observed in pool
+10.0.0.99 - - [04/Apr/2026:13:39:21 +0000] "GET /api/v1/users" 200 4405
+{"timestamp": "2026-04-04T13:39:23.334381", "event": "unauthorized_access", "ip": "192.168.1.50", "level": "critical"}
+{"timestamp": "2026-04-04T13:39:25.335432", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+10.0.0.99 - - [04/Apr/2026:13:39:27 +0000] "POST /login" 401 54
+10.0.0.99 - - [04/Apr/2026:13:39:29 +0000] "POST /login" 200 54
+192.168.1.50 - - [04/Apr/2026:13:39:31 +0000] "GET /api/v1/users" 200 1353
+{"timestamp": "2026-04-04T13:39:33.338848", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+192.168.1.50 - - [04/Apr/2026:13:39:35 +0000] "GET /api/v1/users" 200 4015
+{"timestamp": "2026-04-04T13:39:37.339905", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+{"timestamp": "2026-04-04T13:39:39.341012", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+192.168.1.50 - - [04/Apr/2026:13:39:41 +0000] "GET /api/v1/users" 200 4673
+192.168.1.50 - - [04/Apr/2026:13:39:43 +0000] "GET /api/v1/users" 200 4296
+10.0.0.99 - - [04/Apr/2026:13:39:45 +0000] "GET /api/v1/users" 200 3968
+192.168.1.50 - - [04/Apr/2026:13:39:47 +0000] "GET /api/v1/users" 200 768
+192.168.1.50 - - [04/Apr/2026:13:39:49 +0000] "GET /api/v1/users" 200 4432
+2026-04-04 13:39:51 INFO Database connection timeout observed in pool
+{"timestamp": "2026-04-04T13:39:53.347571", "event": "unauthorized_access", "ip": "192.168.1.10", "level": "critical"}
+{"timestamp": "2026-04-04T13:39:55.347932", "event": "unauthorized_access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:39:57 WARNING Database connection timeout observed in pool
+2026-04-04 13:39:59 WARNING Database connection timeout observed in pool
+192.168.1.50 - - [04/Apr/2026:13:40:01 +0000] "POST /login" 500 54
+2026-04-04 13:40:03 WARNING Database connection timeout observed in pool
+{"timestamp": "2026-04-04T13:40:05.353279", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+{"timestamp": "2026-04-04T13:40:07.354161", "event": "unauthorized_access", "ip": "192.168.1.50", "level": "critical"}
+192.168.1.10 - - [04/Apr/2026:13:40:09 +0000] "POST /login" 200 54
+{"timestamp": "2026-04-04T13:40:11.356057", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+2026-04-04 13:40:13 WARNING Database connection timeout observed in pool
+{"timestamp": "2026-04-04T13:40:15.358136", "event": "unauthorized_access", "ip": "10.0.0.99", "level": "critical"}
+192.168.1.10 - - [04/Apr/2026:13:40:17 +0000] "GET /api/v1/users" 200 3692
+10.0.0.99 - - [04/Apr/2026:13:40:19 +0000] "POST /login" 401 54
+192.168.1.50 - - [04/Apr/2026:13:40:21 +0000] "POST /login" 401 54
+{"timestamp": "2026-04-04T13:41:16.369334", "event": "unauthorized access", "ip": "192.168.1.10", "level": "critical"}
+10.0.0.99 - - [04/Apr/2026:13:41:18 +0000] "GET /api/v1/users" 200 3989
+192.168.1.50 - - [04/Apr/2026:13:41:20 +0000] "POST /login" 401 54
+2026-04-04 13:41:22 WARNING authentication failure for user admin
+2026-04-04 13:41:24 WARNING authentication failure for user admin
+{"timestamp": "2026-04-04T13:41:26.373427", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:41:28 WARNING authentication failure for user admin
+10.0.0.99 - - [04/Apr/2026:13:41:30 +0000] "GET /api/v1/users" 200 3986
+{"timestamp": "2026-04-04T13:41:32.375340", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+192.168.1.10 - - [04/Apr/2026:13:41:34 +0000] "POST /login" 500 54
+192.168.1.10 - - [04/Apr/2026:13:41:36 +0000] "GET /api/v1/users" 200 4961
+2026-04-04 13:41:38 INFO database timeout observed in pool
+{"timestamp": "2026-04-04T13:41:40.378749", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+2026-04-04 13:41:42 WARNING authentication failure for user admin
+2026-04-04 13:41:44 WARNING authentication failure for user admin
+{"timestamp": "2026-04-04T13:41:46.384454", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:41:22 WARNING authentication failure for user admin
+{"timestamp": "2026-04-04 13:41:26", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:46:33 WARNING authentication failure for user admin
+192.168.1.10 - - [04/Apr/2026:13:46:35 +0000] "POST /login" 401 54
+{"timestamp": "2026-04-04T13:46:37.389634", "event": "unauthorized access", "ip": "192.168.1.10", "level": "critical"}
+10.0.0.99 - - [04/Apr/2026:13:46:39 +0000] "POST /login" 200 54
+{"timestamp": "2026-04-04T13:46:41.394260", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+2026-04-04 13:46:43 WARNING authentication failure for user admin
+192.168.1.10 - - [04/Apr/2026:13:46:45 +0000] "GET /api/v1/users" 200 3645
+2026-04-04 13:46:47 INFO database timeout observed in pool
+192.168.1.50 - - [04/Apr/2026:13:46:49 +0000] "POST /login" 500 54
+2026-04-04 13:46:51 WARNING authentication failure for user admin
+{"timestamp": "2026-04-04T13:46:53.401286", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:46:55 WARNING database timeout observed in pool
+2026-04-04 13:46:57 WARNING authentication failure for user admin
+2026-04-04 13:46:59 WARNING authentication failure for user admin
+10.0.0.99 - - [04/Apr/2026:13:47:01 +0000] "GET /api/v1/users" 200 881
+10.0.0.99 - - [04/Apr/2026:13:47:03 +0000] "GET /api/v1/users" 200 4318
+10.0.0.99 - - [04/Apr/2026:13:47:05 +0000] "GET /api/v1/users" 200 1715
+{"timestamp": "2026-04-04T13:47:07.410930", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:47:09 WARNING authentication failure for user admin
+10.0.0.99 - - [04/Apr/2026:13:47:11 +0000] "GET /api/v1/users" 200 2231
+2026-04-04 13:47:13 ERROR database timeout observed in pool
+{"timestamp": "2026-04-04T13:47:15.415520", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:47:17 WARNING authentication failure for user admin
+192.168.1.10 - - [04/Apr/2026:13:47:19 +0000] "POST /login" 401 54
+192.168.1.50 - - [04/Apr/2026:13:47:21 +0000] "GET /api/v1/users" 200 175
+{"timestamp": "2026-04-04T13:47:23.418401", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:47:25 INFO database timeout observed in pool
+{"timestamp": "2026-04-04T13:47:27.419629", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:47:29 WARNING authentication failure for user admin
+192.168.1.10 - - [04/Apr/2026:13:47:31 +0000] "GET /api/v1/users" 200 3977
+192.168.1.10 - - [04/Apr/2026:13:47:33 +0000] "GET /api/v1/users" 200 4948
+192.168.1.10 - - [04/Apr/2026:13:47:35 +0000] "POST /login" 200 54
+{"timestamp": "2026-04-04T13:47:37.426131", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+{"timestamp": "2026-04-04T13:47:39.427289", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+2026-04-04 13:47:41 WARNING authentication failure for user admin
+10.0.0.99 - - [04/Apr/2026:13:47:43 +0000] "POST /login" 200 54
+192.168.1.50 - - [04/Apr/2026:13:47:45 +0000] "POST /login" 500 54
+{"timestamp": "2026-04-04T13:47:47.432857", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+{"timestamp": "2026-04-04T13:47:49.433884", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+10.0.0.99 - - [04/Apr/2026:13:47:51 +0000] "POST /login" 401 54
+2026-04-04 13:47:53 WARNING authentication failure for user admin
+192.168.1.10 - - [04/Apr/2026:13:47:55 +0000] "GET /api/v1/users" 200 3749
+2026-04-04 13:47:57 WARNING authentication failure for user admin
+192.168.1.10 - - [04/Apr/2026:13:47:59 +0000] "POST /login" 401 54
+192.168.1.50 - - [04/Apr/2026:13:48:01 +0000] "GET /api/v1/users" 200 4368
+10.0.0.99 - - [04/Apr/2026:13:48:03 +0000] "POST /login" 500 54
+2026-04-04 13:48:05 WARNING authentication failure for user admin
+2026-04-04 13:48:07 WARNING authentication failure for user admin
+2026-04-04 13:48:09 ERROR database timeout observed in pool
+2026-04-04 13:48:11 ERROR database timeout observed in pool
+2026-04-04 13:48:13 WARNING authentication failure for user admin
+2026-04-04 13:48:15 WARNING authentication failure for user admin
+{"timestamp": "2026-04-04T13:48:17.455443", "event": "unauthorized access", "ip": "192.168.1.10", "level": "critical"}
+2026-04-04 13:48:19 WARNING database timeout observed in pool
+2026-04-04 13:48:21 INFO database timeout observed in pool
+2026-04-04 13:48:23 WARNING authentication failure for user admin
+2026-04-04 13:48:25 WARNING authentication failure for user admin
+10.0.0.99 - - [04/Apr/2026:13:48:27 +0000] "POST /login" 200 54
+2026-04-04 13:48:29 WARNING authentication failure for user admin
+2026-04-04 13:48:31 WARNING database timeout observed in pool
+{"timestamp": "2026-04-04T13:48:33.473145", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+2026-04-04 13:48:35 WARNING authentication failure for user admin
+10.0.0.99 - - [04/Apr/2026:13:48:37 +0000] "POST /login" 500 54
+2026-04-04 13:48:39 WARNING authentication failure for user admin
+2026-04-04 13:48:41 WARNING authentication failure for user admin
+2026-04-04 13:48:43 WARNING database timeout observed in pool
+2026-04-04 13:48:45 ERROR database timeout observed in pool
+192.168.1.10 - - [04/Apr/2026:13:48:47 +0000] "GET /api/v1/users" 200 2146
+2026-04-04 13:48:49 INFO database timeout observed in pool
+192.168.1.50 - - [04/Apr/2026:13:48:51 +0000] "GET /api/v1/users" 200 1514
+2026-04-04 13:48:53 WARNING authentication failure for user admin
+192.168.1.50 - - [04/Apr/2026:13:48:55 +0000] "GET /api/v1/users" 200 2905
+2026-04-04 13:48:57 ERROR database timeout observed in pool
+2026-04-04 13:48:59 ERROR database timeout observed in pool
+{"timestamp": "2026-04-04T13:49:01.489016", "event": "unauthorized access", "ip": "10.0.0.99", "level": "critical"}
+10.0.0.99 - - [04/Apr/2026:13:49:03 +0000] "GET /api/v1/users" 200 3799
+{"timestamp": "2026-04-04T13:49:05.490312", "event": "unauthorized access", "ip": "192.168.1.50", "level": "critical"}
+2026-04-04 13:49:07 WARNING database timeout observed in pool
+2026-04-04 13:49:09 WARNING authentication failure for user admin
+192.168.1.50 - - [04/Apr/2026:13:49:11 +0000] "GET /api/v1/users" 200 912
+10.0.0.99 - - [04/Apr/2026:13:49:13 +0000] "POST /login" 401 54
+10.0.0.99 - - [04/Apr/2026:13:49:15 +0000] "GET /api/v1/users" 200 1866

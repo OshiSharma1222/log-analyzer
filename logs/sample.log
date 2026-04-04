@@ -1,0 +1,9 @@
+192.168.1.10 - - [14/Mar/2026:12:20:00 +0000] "GET /api/v1/health" 200 125
+192.168.1.15 - - [14/Mar/2026:12:20:01 +0000] "POST /login" 401 54
+192.168.1.15 - - [14/Mar/2026:12:20:03 +0000] "POST /login" 401 54
+2026-03-14 12:20:05 ERROR Database connection timeout for cluster A
+{"timestamp": "2026-03-14 12:20:10", "event": "login_failed", "ip": "192.168.1.15", "level": "error"}
+192.168.1.10 - - [14/Mar/2026:12:20:12 +0000] "GET /api/v1/data" 500 0
+192.168.1.10 - - [14/Mar/2026:12:20:30 +0000] "GET /api/v1/metrics" 200 450
+2026-03-14 12:21:05 WARNING Retry mechanism initiated due to intermittent packet loss
+192.168.1.15 - - [14/Mar/2026:12:21:15 +0000] "POST /login" 401 54
